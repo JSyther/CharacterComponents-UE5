@@ -1,5 +1,3 @@
- Copyright © 2025 Reverse-A. All Rights Reserved.
-
 
 #include "Character/Component/Movement/AdvanceMovementComponent.h"
 #include "Configuration/Game/Data/SystemCore.h"

@@ -13,7 +13,7 @@ float ULevelManager::GetCurrentExperience()
 
 float ULevelManager::GetNextLevelExperienceThreshold()
 {
-	int32 CurrentLevel = CharacterData.GetLevelData().GetLevel();
+	int32 CurrentLevel = LevelData.GetLevelData().GetLevel();
 
 	return LevelData.GetLevelData().GetExperienceThreshold()[CurrentLevel];
 }

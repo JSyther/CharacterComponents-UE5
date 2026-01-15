@@ -235,6 +235,10 @@ public:
 
 #pragma region Level
 
+protected:
+	UPROPERTY(EditAnywhere, Category = "Level")
+	FLevelData LevelData;
+
 public:
 	// Level management functions can be added here
 	UFUNCTION(BlueprintCallable, Category = "Level")
